@@ -15,7 +15,7 @@ export default function MovieCard(props: Props) {
     return (
         < li className='movie-card' >
             <div className="movie-poster">
-                <img className='image-poster' src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt={movie.title} />
+                <Image className='image-poster'  src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt={movie.title} width={300} height={450}/>
 
             </div>
 
