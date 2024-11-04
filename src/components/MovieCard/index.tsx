@@ -1,10 +1,12 @@
 import { Movie } from "@/types/movies";
 import StarRating from "../StarRating";
 import './index.scss';
+import Image from "next/image";
 
 export interface Props {
-    movie: Movie
-    lenght: string,
+    key: Number;
+    movie: Movie;
+    lenght: Number;
 }
 
 

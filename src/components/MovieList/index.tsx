@@ -30,15 +30,16 @@ export default function MovieList() {
 
         });
 
-  
+
     }
 
- 
+
 
     return (
         <ul className="movie-list">
             {movies.map((movie) =>
                 <MovieCard
+                    lenght={movies.length}
                     key={movie.id}
                     movie={movie}
                 />
